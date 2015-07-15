@@ -609,6 +609,16 @@ footer {
         display: inline-block;
         padding-right: 3%;
         margin-top: 25px; }
+  @media only screen and (max-width: 500px) {
+    .fleet-overview section {
+      padding: 0; }
+    .fleet-overview h2 {
+      padding: 20px;
+      margin-bottom: 0; }
+    .fleet-overview img {
+      width: 100%; }
+    .fleet-overview li {
+      width: 100%; } }
 
 .page-template-page-text,
 .page-template-page-faqs {
