@@ -1,0 +1,62 @@
+.fleet-overview {
+  background-color: $light-grey;
+  h2 {
+    margin-bottom: 30px;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: $purple-text;
+    padding-top: 50px;
+    font-size: 1.1em;
+    &:first-child {
+      padding-top: 25px;
+    }
+  }
+  h4 {
+    margin: 10px 0;
+  }
+  img {
+    width: 276px;
+    height: 140px;
+  }
+  section {
+    padding: 30px 75px 80px;
+    max-width: 1220px;
+    margin: 0 auto;
+    .content {
+      padding: 39px 8%;
+      background-color: #FFF;
+      border: 1px solid $medium-grey;
+    }
+    ul {
+      padding-bottom: 30px;
+      border-bottom: 2px solid $medium-grey;
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+      li {
+        display: inline-block;
+        padding-right: 3%;
+        margin-top: 25px;
+      }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    section {
+      padding: 0;
+    }
+    h2 {
+      padding: 20px;
+      margin-bottom: 0;
+    }
+    img {
+      width: 100%;
+    }
+    li {
+      width: 100%;
+    }
+  }
+}

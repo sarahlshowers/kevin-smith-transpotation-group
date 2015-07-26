@@ -79,6 +79,10 @@ body {
   body h3 {
     font-size: 1em;
     font-weight: bold; }
+  body h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em; }
   body p {
     font-size: 1em;
     color: #333333; }
@@ -583,6 +587,53 @@ footer {
             margin-bottom: 20px; }
           .fleet .about .youtube-video .video iframe {
             height: 216px; } }
+
+.fleet-overview {
+  background-color: #EEEEEE; }
+  .fleet-overview h2 {
+    margin-bottom: 30px;
+    font-size: 1.6em;
+    font-weight: 600; }
+  .fleet-overview h3 {
+    text-transform: uppercase;
+    color: #6A027B;
+    padding-top: 50px;
+    font-size: 1.1em; }
+    .fleet-overview h3:first-child {
+      padding-top: 25px; }
+  .fleet-overview h4 {
+    margin: 10px 0; }
+  .fleet-overview img {
+    width: 276px;
+    height: 140px; }
+  .fleet-overview section {
+    padding: 30px 75px 80px;
+    max-width: 1220px;
+    margin: 0 auto; }
+    .fleet-overview section .content {
+      padding: 39px 8%;
+      background-color: #FFF;
+      border: 1px solid #CCCCCC; }
+    .fleet-overview section ul {
+      padding-bottom: 30px;
+      border-bottom: 2px solid #CCCCCC; }
+      .fleet-overview section ul:last-child {
+        padding-bottom: 0;
+        border-bottom: none; }
+      .fleet-overview section ul li {
+        display: inline-block;
+        padding-right: 3%;
+        margin-top: 25px; }
+  @media only screen and (max-width: 500px) {
+    .fleet-overview section {
+      padding: 0; }
+    .fleet-overview h2 {
+      padding: 20px;
+      margin-bottom: 0; }
+    .fleet-overview img {
+      width: 100%; }
+    .fleet-overview li {
+      width: 100%; } }
 
 .page-template-page-text,
 .page-template-page-faqs {
